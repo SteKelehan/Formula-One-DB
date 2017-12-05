@@ -1,0 +1,50 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+Car	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Car($/;"	t	language:SQL
+Car.Car_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Car_ID number(10) not null,$/;"	F	language:SQL
+Car.Car_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/triggers.sql	/^create or replace trigger Car_ID $/;"	T	language:SQL
+Car.Driver_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Driver_ID number(10) not null,$/;"	F	language:SQL
+Car.Team_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Team_ID varchar2(25) not null,$/;"	F	language:SQL
+Employees	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Employees ($/;"	t	language:SQL
+Employees.Employee_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Employee_ID number(10) not null,$/;"	F	language:SQL
+Employees.Emp_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/triggers.sql	/^create or replace trigger Emp_ID$/;"	T	language:SQL
+Employees.Fisrt_Name	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Fisrt_Name varchar(25) not null,$/;"	F	language:SQL
+Employees.Last_Name	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Last_Name varchar(25) not null,$/;"	F	language:SQL
+Employees.not	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Team_ID number(10), not null,$/;"	F	language:SQL
+Employees.Salary	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Salary number(15),$/;"	F	language:SQL
+Employees.Sex	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Sex varchar(4),$/;"	F	language:SQL
+Employees.Team_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Team_ID number(10), not null,$/;"	F	language:SQL
+Factory	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Factory ($/;"	t	language:SQL
+Factory.Factory_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Factory_ID number(10) not null,$/;"	F	language:SQL
+Factory.Factory_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/triggers.sql	/^create or replace trigger Factory_ID$/;"	T	language:SQL
+Factory.Location	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Location varchar2(20) not null,$/;"	F	language:SQL
+Factory.Manager_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Manager_ID number(10),$/;"	F	language:SQL
+Job	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Job($/;"	t	language:SQL
+Job.Job_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Job_ID number(10) not null,$/;"	F	language:SQL
+Job.Job_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/triggers.sql	/^create or replace trigger Job_ID$/;"	T	language:SQL
+Job.Name	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Name varchar2(20) not null,$/;"	F	language:SQL
+Manufacturer	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Manufacturer($/;"	t	language:SQL
+Manufacturer.Car_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Car_ID number(10) not null,$/;"	F	language:SQL
+Manufacturer.date_manufactured	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    date_manufactured Date,$/;"	F	language:SQL
+Manufacturer.Team_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Team_ID number(10) not null, $/;"	F	language:SQL
+Race	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Race($/;"	t	language:SQL
+Race.Date_of_race	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Date_of_race date,$/;"	F	language:SQL
+Race.Lap_Record	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Lap_Record time,$/;"	F	language:SQL
+Race.Location	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Location varchar2(25),$/;"	F	language:SQL
+Race.Number_of_Laps	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Number_of_Laps number(3),$/;"	F	language:SQL
+Race.Race_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Race_ID number(10) not null,$/;"	F	language:SQL
+Race.Race_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/triggers.sql	/^create or replace trigger Race_ID$/;"	T	language:SQL
+Race.Record_holder	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Record_holder number(10),$/;"	F	language:SQL
+Race_Participents	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Race_Participents($/;"	t	language:SQL
+Race_Participents.Employee_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Employee_ID number(10) not null,$/;"	F	language:SQL
+Race_Participents.Job_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Job_ID number(10) not null,$/;"	F	language:SQL
+Race_Participents.Race_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Race_ID number(10) not null, $/;"	F	language:SQL
+Race_Participents.Team_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Team_ID number(10) not null,$/;"	F	language:SQL
+Race_Position	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Race_Position($/;"	t	language:SQL
+Race_Position.Car_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Car_ID number(10) not null,$/;"	F	language:SQL
+Race_Position.Position	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Position number(1),$/;"	F	language:SQL
+Race_Position.Race_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Race_ID number(10) not null,$/;"	F	language:SQL
+Team	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Team($/;"	t	language:SQL
+Team.Name	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Name varchar2(25) not null,$/;"	F	language:SQL
+Team.Points	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Points number (3),$/;"	F	language:SQL
+Team.Team_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Team_ID number(10) not null,$/;"	F	language:SQL
+Team.Team_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/triggers.sql	/^create or replace trigger Team_ID $/;"	T	language:SQL
