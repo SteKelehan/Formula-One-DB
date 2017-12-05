@@ -24,8 +24,8 @@ Job.Job_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/triggers.sql	/^crea
 Job.Name	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Name varchar2(20) not null,$/;"	F	language:SQL
 Manufacturer	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Manufacturer($/;"	t	language:SQL
 Manufacturer.Car_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Car_ID number(10) not null,$/;"	F	language:SQL
-Manufacturer.date_manufactured	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    date_manufactured Date,$/;"	F	language:SQL
-Manufacturer.Team_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Team_ID number(10) not null, $/;"	F	language:SQL
+Manufacturer.date_manufactured	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    date_manufactured number(10),$/;"	F	language:SQL
+Manufacturer.Factory_ID	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Factory_ID number(10) not null, $/;"	F	language:SQL
 Race	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^create table Race($/;"	t	language:SQL
 Race.Date_of_race	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Date_of_race date,$/;"	F	language:SQL
 Race.Lap_Record	/Users/Ste/Desktop/Programming/Git/Formula_One_DB/tables.sql	/^    Lap_Record time,$/;"	F	language:SQL

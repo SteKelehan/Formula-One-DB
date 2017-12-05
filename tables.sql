@@ -55,8 +55,8 @@ create sequence Factory_seq start with 1;
 drop table Manufacturer;
 create table Manufacturer(
     Car_ID number(10) not null,
-    Team_ID number(10) not null, 
-    date_manufactured Date,
+    Factory_ID number(10) not null, 
+    date_manufactured number(10),
     primary key (Car_ID, Team_ID)
 );
 
@@ -89,7 +89,6 @@ create table Race_Participents(
     Employee_ID number(10) not null,
     primary key (Race_ID,Job_ID,Team_ID,Employee_ID )
 );
-
 
 
 
