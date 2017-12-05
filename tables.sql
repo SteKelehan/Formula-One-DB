@@ -1,3 +1,5 @@
+set linesize 3200
+
 drop table Employees;
 create table Employees (
     Employee_ID number(10) not null,
